@@ -36,6 +36,19 @@
 							</nav>
 						</div>
 					</div>
+
+{{ if ( $currentPage.Params.showcase ) }}
+<section id="showcase">
+	<div class="showcase-gradient">
+		<div class="header-content grid-block">
+			<div class="module   deepest">
+				<div><p><img src="images/{{ $currentPage.Params.showcase }}" alt="" /></p></div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+
 				</div>
 			</div>
 		</div>

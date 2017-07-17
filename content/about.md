@@ -2,6 +2,7 @@
 date = "2015-10-17T18:03:08+01:00"
 title = "The Band"
 type = "staticpage"
+showcase = "Promo-Shot.jpg"
 
 [menu.main]
 weight = 1

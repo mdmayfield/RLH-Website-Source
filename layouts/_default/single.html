@@ -4,9 +4,9 @@
 <!-- Include our /layouts/partials/navbar.html partial -->
 {{ partial "navbar" . }}
 <article>
-<h1 class="pagetitle">{{ .Title }}</h1>
-<!-- we only want to show the date if it's a post [ie. not on static pages] -->
+<!-- we only want to show the title and date if it's a post [ie. not on static pages] -->
 {{if eq .Type "post"}}
+<h1 class="pagetitle">{{ .Title }}</h1>
  <p class="date">{{ .Date.Format "Mon 02 Jan 2006" }}</p>
 {{else}}
 <!-- not a post so do nowt -->

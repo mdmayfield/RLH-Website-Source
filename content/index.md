@@ -7,23 +7,50 @@ type = "homepage"
 weight = -1
 +++
 
-### THIS IS THE SUPER HOME PAGE ###
+			
+<div>
+	<p style="text-align: center;"><span style="font-size: 24pt; font-family: verdana,geneva,sans-serif; color: #ffcc99;">Welcome to the official home of Run Like Hell </span><br /><span style="font-size: 18pt; font-family: verdana,geneva,sans-serif; color: #dedede;">America's Premier Pink Floyd Show</span></p></div>		
+</div></div>					</div>
+				</section>
+					
+		
+		<div class="wrapper grid-block content-texture ">
+						<div id="main" class="grid-block">
+			
+				<div id="maininner" class="grid-box">
+										<section id="innertop-a" class="grid-block"><div class="wrapper"><div class="grid-box width100 grid-h"><div class="module mod-box  deepest">
 
-<!-- I've written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy
-<div class="infobox">
-<ul>
-<li>Here is the homepage. It has <pre>type = "homepage"</pre> defined in the front-matter.</li>
-<li>The template being used to display this post on its own like this is in: <pre>/themes/skeletontheme/layouts/index.html</pre></li>
-</ul>
-</div>
+			
+<div class="avs player ">
+	
+	<div class="avs-player"><iframe src="https://www.youtube.com/embed/U6S3jQxQCMs?rel=0&showinfo=0&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen></iframe></div>
+	</div>		
+</div></div></div></section>
+					
+										
 
- normal service is resumed! -->
+										<section id="content" class="grid-block"><div id="system-message-container">
+	</div>
 
-# What the F is going on?
 
-This is a paragraph dedicated to explaining what the f is going on. It's written in _Markdown_ which is the language that Hugo static sites are developed in. *What* else could be going on here? there's no way that anyone could know, but there are bugs and mosquitos and shit hovering all around me as I type this.
+<div id="system">
 
-<!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] -->
-![](/images/superimage04.png)
+	
+	<article class="item">
 
-Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque. Suspendisse accumsan, mauris ut pharetra sagittis, eros nisl lobortis ante, vel posuere metus dui dapibus nulla. Donec cursus erat vel nibh sollicitudin, id blandit augue fermentum. Duis eget lacinia ex. Ut egestas, elit sed ullamcorper finibus, orci erat ultricies ipsum, sit amet dignissim felis dui ac felis. Mauris vel consectetur sem. Fusce placerat consectetur risus eget tristique. Phasellus nec tempus velit. Aliquam elementum sem mattis arcu rutrum, vitae euismod ex rutrum. Suspendisse ullamcorper augue eu tempor convallis. Fusce ac dolor lobortis, dapibus ligula et, cursus orci. Mauris dapibus, mauris sed dictum accumsan, est lacus imperdiet lectus, et porta tortor velit sed dolor. Pellentesque malesuada ut turpis in lacinia. Curabitur sit amet maximus velit. Aenean cursus lorem non magna vestibulum, ut convallis sapien pellentesque. Quisque eget turpis in nulla placerat varius quis a justo.
+		
+			
+		
+		<div class="content clearfix">
+
+		
+ 		</div>
+
+								
+		
+		
+		
+			
+	</article>
+
+</div></section>
