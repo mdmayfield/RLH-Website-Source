@@ -1,0 +1,366 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import url(../warp/css/modules.css);
+
+
+
+/* General
+----------------------------------------------------------------------------------------------------*/
+
+/*logo*/
+.logo-img{background-size: contain}
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+    .module .badge {
+    	width: 45px;
+    	height: 45px;
+    	background-image: url(../images/widget/module_badges.png);
+    	background-repeat: no-repeat;
+    }
+
+    .module.badge-hot, .module.badge-top, .module.badge-free, .module.badge-new{
+    	padding: 20px; margin: 20px 15px; 
+        border: 1px solid #FFFFFF;  
+        -webkit-border-radius: 4px;
+           -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+             -o-border-radius: 4px;
+                border-radius: 4px;
+    		-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    		-ms-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    		-o-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    		box-shadow: 0 2px 5px rgba(0,0,0,0.15);} 
+    }
+
+    .module .badge-hot { background-position: 0 0;}
+    .module .badge-new { background-position: 0 -46px;}
+    .module .badge-free { background-position: 0 -92px;}
+    .module .badge-top { background-position: 0 -138px;}
+
+    #sidebar-a .module .module-title .icon, 
+    #sidebar-b .module .module-title .icon
+    {top: 7px;}
+
+    .module .module-title .icon{
+        top: 3px;
+    }
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+    .module .module-title .icon { background: url(../images/module_icons.png) 0 0 no-repeat; }
+    .module .module-title .icon-download { background-position: 0 0; }
+    .module .module-title .icon-twitter { background-position: 0 -30px; }
+    .module .module-title .icon-mail { background-position: 0 -60px; }
+    .module .module-title .icon-bubble { background-position: 0 -90px; }
+    .module .module-title .icon-login { background-position: 0 -120px; }
+    .module .module-title .icon-cart { background-position: 0 -150px; }
+    
+    .wk-twitter-single .content{
+       font-size: 17px;
+        line-height: 27px;
+    }
+
+    .wk-twitter-single p {
+    font-style: normal;
+    }
+
+/* Search module
+----------------------------------------------------------------------------------------------------*/
+    .searchbox{
+        background-color: rgba(0, 0, 0, 0.4); 
+        border: 1px solid rgba(0,0,0, 0.2);
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.2) inset, 1px 1px 0 rgba(255,255,255, .05);
+           -moz-box-shadow: 0 0 2px rgba(0,0,0,.2) inset, 1px 1px 0 rgba(255,255,255, .05);
+                box-shadow: 0 0 2px rgba(0,0,0,.2) inset, 1px 1px 0 rgba(255,255,255, .05);
+
+    }
+    .searchbox:hover{background-color: rgba(0, 0, 0, 0.3);}
+    .searchbox:focus{background-color: rgba(0, 0, 0, 0.5);}
+    .search-icon{background: url(../images/searchbox_magnifier.png) 0 0 repeat-x transparent; height: 16px; width: 16px; position: absolute; left: 8px;
+top: 6px;}
+    
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+    #system .item > .links{
+        text-align: left
+    }
+
+   .mod-box {
+    	padding: 15px 10px;
+    }
+    #sidebar-a .mod-box,
+    #sidebar-b .mod-box {
+        padding: 5px 12px 10px;
+    }
+
+    .mod-box .badge { 
+        top: 15px; 
+        right: 19px;
+    }
+    .mod-box.slogan{padding: 5px 10px}
+
+    #top-b .module-title, 
+    #innerbottom .module-title,
+    #innertop .module-title,
+    #bottom-a .module-title, 
+    #bottom-b .module-title
+    {
+        background: url(../images/body/mod-dot-dark.png) repeat-x scroll 0 100% transparent;
+    }
+    #bottom-block{
+        border-top: 1px solid rgba(0,0,0,0.1);
+        border-bottom: 1px solid #FFFFFF;
+        -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.75) inset;
+           -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.75) inset;
+                box-shadow: 0 1px 0 rgba(255,255,255,0.75) inset;
+    }
+    
+/* Module Type: styled modules
+----------------------------------------------------------------------------------------------------*/
+
+    .mod-color, .mod-white, .mod-dark{
+        -webkit-border-radius: 4px;
+           -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+             -o-border-radius: 4px;
+                border-radius: 4px;
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;  
+        box-sizing: border-box;
+        }
+
+
+    .mod-color p, .mod-white p, .mod-dark p {margin: 5px; }
+    a.h-effect{
+        left:0; 
+        overflow: hidden; 
+        position: relative; 
+        display: block; 
+        margin:0 -15px 10px; 
+        padding: 0 !important; 
+        line-height: 0;
+        -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+           -moz-box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+                box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+    }
+
+    a.h-effect .detail{
+        height: 580px; 
+        width: 768px; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        display: block; }
+
+    .color-content{
+        padding: 0; 
+        overflow: hidden; 
+        position: relative; 
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px; 
+        -ms-border-radius: 5px; 
+        -o-border-radius: 5px; 
+        border-radius: 5px;}
+
+    .color-content p, .color-content h3{padding: 12px 15px 10px}
+    .color-content .button{margin: 10px 1px 4px 0;}
+    .mod-color{text-shadow: none; 
+     background-repeat: repeat;
+     background-position: 0 0;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 1px 0 rgba(255, 255, 255, 0.55);
+       -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 1px 0 rgba(255, 255, 255, 0.55);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 1px 0 rgba(255, 255, 255, 0.55);
+    }
+
+    .mod-color, .mod-white, .mod-dark{margin: 20px 15px; overflow: hidden;}
+    .mod-color h3{color: #FFFFFF !important; text-shadow: none !important;}
+    .mod-color h3 strong{color: #C0C0C0 !important;}
+    .mod-white{background: #FFFFFF; border: 1px solid #e0e0e0;} 
+    .mod-dark{background: #404040; color: #f0f0f0; border: 1px solid #202020; text-shadow: none;}
+
+    .mod-dark h3{color: #FFFFFF !important; text-shadow: none; }
+    .mod-dark h3 strong{color: #808080 !important;}
+
+    .latest{
+    margin: 4px 10px 6px 0;
+    width: 48px;
+    height: 48px;
+    }
+
+    /*sidebar a*/
+    .module-title, #content h3.module-title, #system h1.title {
+        background: url(../images/body/mod-dot.png) repeat-x scroll center bottom transparent;
+        line-height: 38px;
+        padding: 0 0 5px 0;
+        margin-left: 0;
+    }
+
+    .module-title, #content h3.module-title{
+        white-space: pre-wrap;
+    }
+    
+    #content h3.module-title {
+        margin: 0 0 9px !important;
+        padding: 5px 0 5px !important;
+    }
+
+    #content header {
+        padding-bottom: 2px;
+        padding-top: 15px;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    #content .yoo-zoo header{
+        margin-left: 0;
+        background: url(../images/body/mod-dot.png) repeat-x scroll 0 100% transparent; 
+    }
+
+     /*mid background textures*/
+
+    #content .width50 header{
+        margin-left: 0;
+        background-position: 90% 100%
+    }
+
+    #content .width33 header{
+        margin-left: 0;
+        background-position: 90% 100%
+    }
+
+    /*title*/
+    #system .item h3{
+        padding-bottom: 15px;
+    }
+
+    #system .title{
+    	padding-left: 0;
+    }
+
+    #system .width50 .title{
+        padding-left: 0;
+    }
+
+    #system h1.title{
+        padding-left: 0; 
+        padding-bottom: 13px;
+    }
+
+    .yoo-zoo h1.title{
+        background: none !important;
+        padding-bottom: 0 !important;
+    }
+    
+    #system .contact-head{
+        margin-top: -25px;
+    }
+
+    #system .contact-head h3{
+        padding-bottom: 0;
+    }
+
+    #acyarchivelisting table {border: 0 none;}
+    input.subbutton{
+        padding-top: 5px;
+        margin-top: 1px;
+    }
+
+    div.responseContainer{
+        background-color: transparent;
+        color: #FFF;
+        padding: 0 !important;
+        margin: 0 !important;
+        position: relative;
+        display: block;
+        top: 22px;
+        left: 11px;
+        height: 0 !important;
+    }
+
+    .section-title {
+        border-radius: 4px 0 0 0;
+        font-size: 24px;
+        height: 38px;
+        margin-left: 1px !important;
+        margin-top: 1px;
+        padding: 21px 18px 0;
+        text-shadow: none;
+    }
+
+    .module .module-title span.subtitle {
+        margin-top: -3px;
+        margin-bottom: 7px;
+    }
+    
+    /*lightbox*/
+    #lightbox-title-float{text-shadow: none;}
+
+    /*newsletter*/
+    .acymailing_introtext{
+        position: relative;
+    }
+
+    .postcontent-title .t {
+        line-height: 45px;
+        padding: 0 0 10px 20px;
+        white-space: pre-wrap;
+    }
+
+    #bottom-c{
+        margin: 0;
+        padding: 0;
+        border-top: 7px solid rgba(0,0,0,0.5);
+        -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1) inset;
+           -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1) inset;
+                box-shadow: 0 1px 0 rgba(255,255,255,0.1) inset;
+    }
+
+    .footer-body{
+        position:relative; text-shadow: none; display: table; width: 100%;
+        background-color: rgba(0,0,0,0.3);
+        -webkit-border-radius: 0 0 5px 5px;
+           -moz-border-radius: 0 0 5px 5px;
+                border-radius: 0 0 5px 5px;
+        -webkit-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1), 0 -4px 10px rgba(0, 0, 0, 0.3) inset;
+           -moz-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1), 0 -4px 10px rgba(0, 0, 0, 0.3) inset;
+                box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1), 0 -4px 10px rgba(0, 0, 0, 0.3) inset;
+    }
+
+    .footer-overlay-bottom .overlay-shadow{
+        background: url(../images/body/footer-shadow.png) no-repeat scroll 100% 100% transparent; 
+        height: 44px; 
+        margin-top: -22px; 
+        max-width: 100%
+    }
+
+    #system #comments .comment-head .author{
+        font-weight: normal;
+    }
+
+    /*google maps*/
+    #g-map {
+    overflow: hidden;
+    position: relative;
+    }
+
+    #g-map .module{margin: 0;}
+    .map-shadow { 
+        display: inline-block; 
+        height: 12px; 
+        position: absolute; 
+        top: 0; 
+        z-index: 5;
+    }
+
+    /*login module overrides*/
+
+    form.short div.button,
+    form.short div.button:active{
+        background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        box-shadow: none;
+    }

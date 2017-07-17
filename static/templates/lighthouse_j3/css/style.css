@@ -1,0 +1,238 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+    a, ul.menu-dropdown span.subtitle{
+        -webkit-transition: color .2s ease-in-out;
+           -moz-transition: color .2s ease-in-out;
+                transition: color .2s ease-in-out;
+    }
+
+    img.pic-border {
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+        }
+
+
+/*cursors
+----------------------------------------------------------------------------------------------------*/
+    /*default*/
+	body.cur-default , .cur-default .current, .cur-default abbr, #Kunena ul#kbbcode-toolbar li a.kbbcode-separator{cursor: default !important;}
+    .cur-default a, .cur-default button, .cur-default input[type="submit"], .cur-default input[type="reset"], .cur-default input[type="button"], .cur-default a span, .cur-default .button, .cur-default .button-color, .cur-default .error, .cur-default .accordion h2, .cur-default li .title, .cur-default .tag-body, .cur-default div.detail, .cur-default ul.menu li, .cur-default ul.menu, .cur-default form label, .cur-default .zoom, .cur-default .more, .cur-default .showhide h4, .cur-default #slide-nav li, .cur-default .slider-nav .left, .cur-default .slider-nav .right, .cur-default .orbit-bullets li, .cur-default form label, .cur-default .orbit-wrapper .timer, .cur-default .mejs-controls .mejs-time-rail span, .cur-default .mejs-controls .mejs-time-rail span, .cur-default .mejs-overlay-play, .cur-default .wk-slideshow-default .nav span, .cur-default .wk-slideshow-default > div:hover .next, .cur-default .wk-slideshow-default > div:hover .prev, .cur-default .wk-slideshow .next, .cur-default .wk-slideshow .prev, .cur-default .wk-slideshow .nav li, .cur-default .gkTabsWrap.vertical ol li, .cur-default #lightbox-overlay, .cur-default .nspPagination li, .cur-default input[type="button"], .cur-default input[type="submit"], .cur-default input[type="checkbox"], .cur-default input[type="image"], .cur-default input[type="radio"], .cur-default select, .cur-default img.btnImage, .cur-default .mod_events_monthyear, #Kunena input.kfile-input{cursor: pointer !important;}
+    .cur-default input {cursor: text;}
+    .cur-default abbr, .cur-default acronym, .cur-default .postcontent dfn, .cur-default abbr[title], .cur-default .postcontent dfn[title]{cursor: help;}
+    
+	/*black*/
+	body.cur-black, .cur-black .current, .cur-black abbr, #Kunena ul#kbbcode-toolbar li a.kbbcode-separator{cursor: url(../images/cursor/black/cursor.cur), default !important;}
+	.cur-black a, .cur-black button, .cur-black input[type="submit"], .cur-black input[type="reset"], .cur-black input[type="button"], .cur-black a span, .cur-black .button, .cur-black .button-color, .cur-black .error, .cur-black .accordion h2, .cur-black li .title, .cur-black .tag-body, .cur-black div.detail, .cur-black ul.menu li, .cur-black ul.menu, .cur-black form label, .cur-black .zoom, .cur-black .more, .cur-black .showhide h4, .cur-black #slide-nav li, .cur-black .slider-nav .left, .cur-black .slider-nav .right, .cur-black .orbit-bullets li, .cur-black form label, .cur-black .orbit-wrapper .timer, .cur-black .mejs-controls .mejs-time-rail span, .cur-black .mejs-controls .mejs-time-rail span, .cur-black .mejs-overlay-play, .cur-black .wk-slideshow-default .nav span, .cur-black .wk-slideshow-default > div:hover .next, .cur-black .wk-slideshow-default > div:hover .prev, .cur-black .wk-slideshow .next, .cur-black .wk-slideshow .prev, .cur-black .wk-slideshow .nav li, .cur-black .gkTabsWrap.vertical ol li, .cur-black #lightbox-overlay, .cur-black .nspPagination li, .cur-black input[type="button"], .cur-black input[type="submit"], .cur-black input[type="checkbox"], .cur-black input[type="image"], .cur-black input[type="radio"], .cur-black select, .cur-chrome img.btnImage, .cur-black .mod_events_monthyear, #Kunena input.kfile-input{cursor: url(../images/cursor/black/hand.cur), pointer !important;}
+	.cur-black input {cursor: url(../images/cursor/black/text.cur), text;}
+	.cur-black abbr, .cur-black acronym, .cur-black .postcontent dfn, .cur-black abbr[title], .cur-black .postcontent dfn[title]{cursor: url(../images/cursor/black/help.cur), help;}
+
+
+	/*chrome*/
+	body.cur-chrome , .cur-chrome .current, .cur-chrome abbr, #Kunena ul#kbbcode-toolbar li a.kbbcode-separator{cursor: url(../images/cursor/chrome/cursor.cur), default !important;}
+	.cur-chrome a, .cur-chrome button, .cur-chrome input[type="submit"], .cur-chrome input[type="reset"], .cur-chrome input[type="button"], .cur-chrome a span, .cur-chrome .button, .cur-chrome .button-color, .cur-chrome .error, .cur-chrome .accordion h2, .cur-chrome li .title, .cur-chrome .tag-body, .cur-chrome div.detail, .cur-chrome ul.menu li, .cur-chrome ul.menu, .cur-chrome form label, .cur-chrome .zoom, .cur-chrome .more, .cur-chrome .showhide h4, .cur-chrome #slide-nav li, .cur-chrome .slider-nav .left, .cur-chrome .slider-nav .right, .cur-chrome .orbit-bullets li, .cur-chrome form label, .cur-chrome .orbit-wrapper .timer, .cur-chrome .mejs-controls .mejs-time-rail span, .cur-chrome .mejs-controls .mejs-time-rail span, .cur-chrome .mejs-overlay-play, .cur-chrome .wk-slideshow-default .nav span, .cur-chrome .wk-slideshow-default > div:hover .next, .cur-chrome .wk-slideshow-default > div:hover .prev, .cur-chrome .wk-slideshow .next, .cur-chrome .wk-slideshow .prev, .cur-chrome .wk-slideshow .nav li, .cur-chrome .gkTabsWrap.vertical ol li, .cur-chrome #lightbox-overlay, .cur-chrome .nspPagination li, .cur-chrome input[type="button"], .cur-chrome input[type="submit"], .cur-chrome input[type="checkbox"], .cur-chrome input[type="image"], .cur-chrome input[type="radio"], .cur-chrome select, .cur-chrome img.btnImage, .cur-chrome .mod_events_monthyear, #Kunena input.kfile-input{cursor: url(../images/cursor/chrome/hand.cur), pointer !important;}
+	.cur-chrome input {cursor: url(../images/cursor/chrome/text.cur), text;}
+	.cur-chrome abbr, .cur-chrome acronym, .cur-chrome .postcontent dfn, .cur-chrome abbr[title], .cur-chrome .postcontent dfn[title]{cursor: url(../images/cursor/chrome/help.cur), help;}
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+   /*body background textures*/
+    .bg_texture_0, .footer_texture_0{background-image: none;}
+    .bg_texture_1, .bg_texture_2, .bg_texture_3, .bg_texture_4, .bg_texture_5, .bg_texture_6,
+    .bg_texture_11, .bg_texture_12, .bg_texture_13, .bg_texture_15, .bg_texture_16, .bg_texture_17, 
+    .bg_texture_18, .bg_texture_19, .bg_texture_20, .bg_texture_21, .bg_texture_22, .bg_texture_23,
+    .footer_texture_1, .footer_texture_2, .footer_texture_3, .footer_texture_4, .footer_texture_5,
+    .footer_texture_6, .footer_texture_7, .footer_texture_8, .footer_texture_9, .footer_texture_10,
+    .footer_texture_11, .footer_texture_12, .footer_texture_13
+    {
+        background-repeat: repeat;
+        background-color: transparent;
+        background-position: top left;
+    } 
+
+    .bg_texture_1{background-image: url(../images/texture/1.png);}
+    .bg_texture_2{background-image: url(../images/texture/2.png);}
+    .bg_texture_3{background-image: url(../images/texture/3.png);}
+    .bg_texture_4{background-image: url(../images/texture/4.png);}
+    .bg_texture_5{background-image: url(../images/texture/5.png);}
+    .bg_texture_6{background-image: url(../images/texture/6.jpg);}
+    .bg_texture_11, .footer_texture_1{background-image: url(../images/texture/11.png);}
+    .bg_texture_12, .footer_texture_2{background-image: url(../images/texture/12.jpg);}
+    .bg_texture_13, .footer_texture_3{background-image: url(../images/texture/13.jpg);}
+    .footer_texture_4{background-image: url(../images/texture/14.jpg);}
+    .bg_texture_15, .footer_texture_5{background-image: url(../images/texture/15.jpg);}
+    .bg_texture_16, .footer_texture_6{background-image: url(../images/texture/16.png);}
+    .bg_texture_17, .footer_texture_7{background-image: url(../images/texture/17.png);}
+    .bg_texture_18, .footer_texture_8{background-image: url(../images/texture/18.png);}
+    .bg_texture_19, .footer_texture_9{background-image: url(../images/texture/19.png);}
+    .bg_texture_20, .footer_texture_10{background-image: url(../images/texture/20.jpg);}
+    .bg_texture_21, .footer_texture_11{background-image: url(../images/texture/21.jpg);}
+    .bg_texture_22, .footer_texture_12{background-image: url(../images/texture/22.jpg);}
+    .bg_texture_23, .footer_texture_13{background-image: url(../images/texture/23.jpg);}
+    .bg_texture_24{background-image: url(../images/texture/custom-bg.jpg);  background-repeat: no-repeat; background-position: top left; background-attachment: fixed}
+    
+
+    .sheet-body.main_texture_1 #sidebar-a,
+    .sheet-body.main_texture_1 #sidebar-b,
+    .sheet-body.main_texture_2 #sidebar-a,
+    .sheet-body.main_texture_2 #sidebar-b,
+    .sheet-body.main_texture_3 #sidebar-a,
+    .sheet-body.main_texture_3 #sidebar-b,
+    .sheet-body.main_texture_4 #sidebar-a,
+    .sheet-body.main_texture_4 #sidebar-b,
+    .sheet-body.main_texture_5 #sidebar-a,
+    .sheet-body.main_texture_5 #sidebar-b
+    {background-color: transparent;}
+
+
+    .sheet-body.main_texture_1 {
+        background-image: url(../images/texture/7_top.jpg), url(../images/texture/7_r.jpg);
+        background-repeat: repeat-x, repeat;
+        background-position: top left, top left;
+    } 
+
+    .sheet-body.main_texture_2 {
+        background-image: url(../images/texture/8_top.jpg), url(../images/texture/8_r.jpg);
+        background-repeat: repeat-x, repeat;
+        background-position: top left, top left;
+    }
+
+    .sheet-body.main_texture_3 {
+        background-image: url(../images/texture/9_top.jpg), url(../images/texture/9_r.jpg);
+        background-repeat: repeat-x, repeat;
+        background-position: top left, top left;
+    }
+
+    .sheet-body.main_texture_4 {
+        background-image: url(../images/texture/10_top.jpg), url(../images/texture/10_r.jpg);
+        background-repeat: repeat-x, repeat;
+        background-position: top left, top left;
+    }
+    
+    .sheet-body.main_texture_5 {
+        background-image: url(../images/texture/24.png);
+        background-repeat: repeat;
+        background-position: top left;
+    }
+    
+    /*mid background textures*/
+    .content_texture_t{background-image: none}
+
+    /*overlays*/
+    .comp_texture_0 .mod-color, 
+    .comp_texture_0 .price-col .th .overlay, 
+    .comp_texture_0 .showcase-gradient, 
+    .comp_texture_0 .colored .menu-sidebar a.level1, 
+    .comp_texture_0 .colored .menu-sidebar span.level1 {background-image: none;}
+    
+    .comp_texture_1 .mod-color, 
+    .comp_texture_1 .price-col .th .overlay, 
+    .comp_texture_1 .showcase-gradient, 
+    .comp_texture_1 .colored .menu-sidebar a.level1, 
+    .comp_texture_1 .colored .menu-sidebar span.level1 {background-image: url(../images/overlay/1.png); background-repeat: repeat;}
+    
+    .comp_texture_2 .mod-color, 
+    .comp_texture_2 .price-col .overlay, 
+    .comp_texture_2 .showcase-gradient, 
+    .comp_texture_2 .colored .menu-sidebar a.level1, 
+    .comp_texture_2 .colored .menu-sidebar span.level1 {background-image: url(../images/overlay/2.png); background-repeat: repeat;}
+    
+    .comp_texture_3 .mod-color, 
+    .comp_texture_3 .price-col .overlay, 
+    .comp_texture_3 .showcase-gradient, 
+    .comp_texture_3 .colored .menu-sidebar a.level1, 
+    .comp_texture_3 .colored .menu-sidebar span.level1 {background-image: url(../images/overlay/3.png); background-repeat: repeat;}
+    
+    .comp_texture_4 .mod-color, 
+    .comp_texture_4 .price-col .overlay, 
+    .comp_texture_4 .showcase-gradient, 
+    .comp_texture_4 .colored .menu-sidebar a.level1, 
+    .comp_texture_4 .colored .menu-sidebar span.level1 {background-image: url(../images/overlay/4.png); background-repeat: repeat;}
+    
+    .comp_texture_5 .mod-color, 
+    .comp_texture_5 .price-col .overlay, 
+    .comp_texture_5 .showcase-gradient, 
+    .comp_texture_5 .colored .menu-sidebar a.level1, 
+    .comp_texture_5 .colored .menu-sidebar span.level1 {background-image: url(../images/overlay/5.png); background-repeat: repeat;}
+    
+    .comp_texture_6 .mod-color, 
+    .comp_texture_6 .price-col .overlay, 
+    .comp_texture_6 .showcase-gradient, 
+    .comp_texture_6 .colored .menu-sidebar a.level1, 
+    .comp_texture_6 .colored .menu-sidebar span.level1 {background-image: url(../images/overlay/6.png); background-repeat: repeat;}
+        
+    .comp_texture_7 .mod-color, 
+    .comp_texture_7 .price-col .overlay, 
+    .comp_texture_7 .showcase-gradient, 
+    .comp_texture_7 .colored .menu-sidebar a.level1, 
+    .comp_texture_7 .colored .menu-sidebar span.level1 {background-image: url(../images/overlay/7.png); background-repeat: repeat;}
+    
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+    /*gradient 1*/
+    .element_grad_1 #Kunena .kcontenttablespacer, .element_grad_1 #Kunena div.kmsg-header h2,
+    .element_grad_1 #Kunena .kforum-pathway, .element_grad_1  #Kunena .kforum-pathway-bottom,
+    .element_grad_1 #Kunena #ktab,
+    .element_grad_1 #Kunena thead tr th, .element_grad_1 #Kunena tr.ksth th
+    {   
+    background: rgba(224,208,157,0.8);
+    background: -moz-linear-gradient(top,  rgba(244,232,208,0.8) 0%, rgba(224,208,157,0.8) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,232,208,0.8)), color-stop(100%,rgba(224,208,157,0.8)));
+    background: -webkit-linear-gradient(top,  rgba(244,232,208,0.8) 0%,rgba(224,208,157,0.8) 100%);
+    background: -o-linear-gradient(top,  rgba(244,232,208,0.8) 0%,rgba(224,208,157,0.8) 100%);
+    background: -ms-linear-gradient(top,  rgba(244,232,208,0.8) 0%,rgba(224,208,157,0.8) 100%);
+    background: linear-gradient(to bottom,  rgba(244,232,208,0.8) 0%,rgba(224,208,157,0.8) 100%);
+    }
+
+    .element_grad_1 #Kunena tr.krow1 td,
+    #jevents_body .ev_td_left
+     { background-color: rgba(239, 224, 191, 0.6);}
+
+    /*gradient 2*/
+    .element_grad_2 #Kunena .kcontenttablespacer, .element_grad_2 #Kunena div.kmsg-header h2,
+    .element_grad_2 #Kunena .kforum-pathway, .element_grad_2  #Kunena .kforum-pathway-bottom,
+    .element_grad_2 #Kunena #ktab, 
+    .element_grad_2 #Kunena thead tr th, .element_grad_2 #Kunena tr.ksth th
+    {   
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #efefef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#efefef 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#efefef 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#efefef 100%);
+    background: linear-gradient(top,  #ffffff 0%,#efefef 100%);
+    border: 0 none;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 -1px 0 rgba(255, 255, 255, .5) inset;
+       -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 -1px 0 rgba(255, 255, 255, .5) inset;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 -1px 0 rgba(255, 255, 255, .5) inset;
+    }
+
+    .element_grad_2 #Kunena tr.krow1 td,
+    #jevents_body .ev_td_left
+     { background-color: rgba(249, 249, 249, 0.5)}
+
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+

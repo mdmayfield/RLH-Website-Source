@@ -1,0 +1,79 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import url(../warp/css/ie8.css);
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+	.logo-img{width: 200px !important; max-width: none}
+	.wrapper{min-width: 100px}
+	.sheet-body.main_texture_1{background-image: url(../images/texture/7_r.jpg); background-repeat: repeat; background-position: top left;}
+	.sheet-body.main_texture_2{background-image: url(../images/texture/8_r.jpg); background-repeat: repeat; background-position: top left;}
+	.sheet-body.main_texture_3{background-image: url(../images/texture/9_r.jpg); background-repeat: repeat; background-position: top left;}
+	.sheet-body.main_texture_4{background-image: url(../images/texture/10_r.jpg); background-repeat: repeat; background-position: top left;}
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+	.menu-dropdown li.level2 { 
+		margin: 0;
+		border-color: transparent;
+	    border-style: solid;
+	    border-width: 1px 5px 1px 5px;
+	}
+
+	.colored .menu-sidebar li.level1,
+	.colored .menu-sidebar li.level2 {
+		border-width: 1px 1px 0;
+		border-style: solid;
+		border-color: #e0e0e0;
+	}
+	.colored .menu-sidebar{
+		border-bottom: 1px solid #e0e0e0;
+	}
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+	/*widgetkit*/
+	.wk-slideshow-home .caption, .layout-slideshow .sprocket-features-content {filter: none !important;}
+	.wk-slideshow-home .caption h2, .wk-slideshow-home .caption p, .sprocket-features-desc .title, .layout-slideshow .sprocket-features-title, .sprocket-features-desc .desc, .wk-slideshow-home span.title, .wk-slideshow-home > div .next, .wk-slideshow-home > div .prev, .layout-slideshow .sprocket-features-pagination li, .layout-slideshow .sprocket-features-arrows .arrow, #cntdwn dl, .footer-body, #bottom-menu, .sheet.main-content
+	 { filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#77000000', endColorstr='#77000000');}
+
+	/*forms*/
+	input[type="text"], 
+	input[type="password"],
+	input[type="email"], 
+	input[type="url"], 
+	textarea{
+		border: 1px solid #303030;
+	}
+
+	.module.badge-hot, .module.badge-top, .module.badge-free, .module.badge-new { border: 1px solid #ccc; }
+	.showhide li div, div.note{border:1px solid #D8D8D8}
+	.ie8 video{background: none;}
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/*tags
+----------------------------------------------------------------------------------------------------*/
+	a.tag-body, .tag-body:hover, .tag-body, .tag-body .tag:before{color: #A96939 !important;}
+	a.tag-body{border: 0 none !important; height: 20px !important; line-height: 1.9}
+	.tag-body{border: 0 none !important; }
+	.tag-body{background: url(../images/widget/tag_b.png) repeat-x scroll 100% 0 transparent !important; margin-left: 18px}
+	.tag:before{background: url(../images/widget/tag_h.png) no-repeat scroll 0 0 transparent !important; border: 0 none; height: 30px !important; width: 19px !important;  left: -17px !important; top: 0 !important; z-index: 100}
+	.tag:after{background: none; border: 0 none}
+
+	.tag-body{box-shadow: none !important;}
+	.tag:before{-ms-transform: none !important; box-shadow: none !important; left: -14px !important;}
+	.tag:after{-ms-transform: none !important; box-shadow: none !important; }
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Style
+----------------------------------------------------------------------------------------------------*/
