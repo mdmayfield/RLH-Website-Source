@@ -2,6 +2,9 @@
 date = "2015-10-17T18:03:08+01:00"
 title = "Gallery"
 type = "staticpage"
+
+[menu.main]
+weight = 3
 +++
 
 ### WHAT THE WHAT THIS IS OUR DOPE GALLERY HOLY F MAN ###

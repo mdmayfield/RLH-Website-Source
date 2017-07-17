@@ -1,7 +1,10 @@
 +++
 date = "2015-10-17T18:03:08+01:00"
-title = "ABOUT PAGE"
+title = "The Band"
 type = "staticpage"
+
+[menu.main]
+weight = 1
 +++
 
 ### THIS IS THE SUPER ABOUT PAGE ###

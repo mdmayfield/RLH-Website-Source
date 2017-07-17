@@ -1,13 +1,13 @@
 +++
 date = "2015-10-17T18:03:08+01:00"
-title = "Contact Us"
+title = "Blog"
 type = "staticpage"
 
 [menu.main]
-weight = 6
+weight = 5
 +++
 
-### HIT ME UP BRO ###
+### WHAT THE WHAT THIS IS OUR DOPE GALLERY HOLY F MAN ###
 
 <!-- I've written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy -->
 <div class="infobox">

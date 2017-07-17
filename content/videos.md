@@ -2,6 +2,9 @@
 date = "2015-10-17T18:03:08+01:00"
 title = "Videos"
 type = "staticpage"
+
+[menu.main]
+weight = 4
 +++
 
 ### PEEP SOME M-ER F-ING VIDEOS RIGHT THE F HERE ###

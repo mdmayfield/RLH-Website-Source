@@ -21,13 +21,15 @@
 						<div id="hmenu" class="grid-block">
 							<nav id="menu">
 								<ul class="menu menu-dropdown">
-									<li class="level1 active current"><a href="/" class="level1 active current"><span>Home</span></a></li>
-									<li class="level1"><a href="/about" class="level1"><span>The Band</span></a></li>
-									<li class="level1"><a href="/upcoming-shows" class="level1"><span>Upcoming Shows</span></a></li>
-									<li class="level1"><a href="/gallery" class="level1"><span>Gallery</span></a></li>
-									<li class="level1"><a href="/videos" class="level1"><span>Videos</span></a></li>
-									<li class="level1"><a href="/blog" class="level1"><span>Blog</span></a></li>
-									<li class="level1"><a href="/contact-us" class="level1"><span>Contact Us</span></a></li>
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+	<li class="level1{{ if $currentPage.IsMenuCurrent "main" . }} active current{{ end }}">
+    	<a href="{{ .URL }}" class="level1{{ if $currentPage.IsMenuCurrent "main" . }} active current{{ end }}">
+    		<span>{{ .Name }}</span>
+    	</a>
+    </li>
+{{ end }}
+
 								</ul>
 							</nav>
 						</div>
