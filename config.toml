@@ -1,6 +1,6 @@
-baseurl = "http://dev.null.com"
+baseurl = "http://www.runlikehell.band"
 languageCode = "en-ie"
-title = "HUGO SKELETON SITE"
+title = "Run Like Hell: America's Premier Pink Floyd Show"
 theme="skeletontheme"
 canonifyurls = true
 contentdir = "content"
