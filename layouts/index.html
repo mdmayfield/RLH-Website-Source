@@ -14,23 +14,64 @@
 <!-- Content. is the actual content of '/content/index.md' -->
 {{ .Content }}
 </div>
-<!-- Recent Blog entries. -->
 </article>
 {{ end }}
+
+<!-- Recent Blog entries. First, set DOM stuff-->
+
+<section id="innerbottom-b" class="grid-block"><div class="wrapper"><div class="grid-box width100 grid-h"><div class="module mod-box  deepest">
+
+<div id="fd" class="eb eb-mod mod_easybloglatestblogs">
+	<div class="eb-mod mod-items-grid clearfix">
+
+<!-- Set grid variable -->
+{{ $.Scratch.Set "grid" 1 }}
 
 {{ range first 4 (where .Data.Pages "Section" "blog").ByDate.Reverse }}
-<article>
-<!-- Title, as defined in the front-matter  of /content/blog/<pagename>.md -->
-<!-- Wrap the title in a link to the actual full length article -->
-<a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
-<div class="content">
-<!-- Just show a summary. Not the full post -->
-{{ .Summary }} <a href="{{ .Permalink }}">[READ MORE...]</a>
-</div>
-</article>
+		<div class="mod-grid mod-grid-{{ $.Scratch.Get "grid" }}" style="width:50%;">
+			<div class="mod-item">
+				<div class="eb-mod-head mod-table align-middle">
+					<div class="mod-cell">
+						<div class="mod-muted mod-small mod-fit">{{ .Date.Format "January 1, 2006" }}</div>
+					</div>
+				</div>
+				<div class="eb-mod-context">
+				{{ if .Params.image }}
+					<div class="eb-mod-thumb is-center is-full">
+						<a href="{{ .URL }}" class="eb-mod-image-cover"
+							style="background-image: url('{{ .Params.image }}');
+				            width: 100%;
+				            height: 200px;"
+				            ></a>
+					</div>
+				{{ end }}
+					<div class="eb-mod-title">
+						<a href="{{ .URL }}" class="eb-mod-media-title">{{ .Title }}</a>
+					</div>
+					<div class="eb-mod-body">
+						{{ .Summary }}
+					</div>
+				</div>
+				<div class="eb-mod-foot mod-muted mod-small">
+					<div class="mod-cell">
+						<a href="{{ .URL }}">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+{{ $.Scratch.Set "grid" ( sub 3 ($.Scratch.Get "grid") ) }}
+
 {{ end }}
 
-<!-- This ends the loop started with 'range...' above -->
+	</div>
+</div>
+
+</div></div></div></section>
+
+
+
+
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
 {{"<!-- end layouts > index.html template //-->" | safeHTML}}
