@@ -129,11 +129,14 @@
 {{ partial "footer" . }}
 {{"<!-- end layouts > index.html template //-->" | safeHTML}}
 
+<!-- https://github.com/leemark/better-simple-slideshow -->
+
 	<script src="/js/better-simple-slideshow.js" type="text/javascript"></script>
 	<script>
 		var opts = {
 			auto : {
-				speed : 5000
+				speed : 5000,
+				pauseOnHover : true
 			},
 			fullScreen : false
 		};
