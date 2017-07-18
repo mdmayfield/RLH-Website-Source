@@ -1,4 +1,4 @@
-baseurl = "http://www.runlikehell.band"
+baseurl = "."
 languageCode = "en-ie"
 title = "Run Like Hell: America's Premier Pink Floyd Show"
 theme="skeletontheme"
