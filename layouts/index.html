@@ -117,9 +117,15 @@
 	</div>
 </div>
 
-
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
 {{"<!-- end layouts > index.html template //-->" | safeHTML}}
+
+	<script>
+		(function($){
+		$(document).on('ready', function() {
+					});
+		})(jQuery);
+	</script>
 </body>
 </html>
