@@ -477,13 +477,11 @@ bf2d6a4afdb2026480e63283235906c3 offline.php
 07a408733dc2bcb37826ff4437b98e7d styles/azure/images/appointment.png
 2224499ce9c6c6646198a5503de988fd styles/azure/images/dt-event.png
 1ebb9c42bb7718f2affd2ccfba92ebea styles/azure/images/je-month.png
-d630a75542136c6b3bb5efdceb6fe671 styles/azure/images/logo.png
 71c474e76a82c5c65a329b220abb59e6 styles/azure/images/today.png
 c00b842c0978971b98746d3353437ec5 styles/crimson/css/layout.css
 0f48c0c1ecd2af84f639e2d9b7d7c59f styles/crimson/images/appointment.png
 870d91da81d63c41cd8b659f3205592c styles/crimson/images/dt-event.png
 8a710b12e90cc8a6e86c725a66ac49be styles/crimson/images/je-month.png
-2129881b22c2972e27fb218b4c4528fe styles/crimson/images/logo.png
 5fb7618ebda9a583578449ff15fff2b4 styles/crimson/images/logo2.png
 1ab345aa6bb4b4c0f06fa099ac7e1ad7 styles/crimson/images/today.png
 8ca096fda23d564fe62bc65ef5f498e0 styles/index.html
@@ -491,7 +489,6 @@ c00b842c0978971b98746d3353437ec5 styles/crimson/css/layout.css
 0d9d9d399cb61a4b748a225ac924f6aa styles/olive/images/appointment.png
 9796493c060f5f3e0040950eca83d6b1 styles/olive/images/dt-event.png
 6475f3dc35b0a44f4d5554b678ed499b styles/olive/images/je-month.png
-2129881b22c2972e27fb218b4c4528fe styles/olive/images/logo.png
 efb13f8d0e618b81766edfe207350c0a styles/olive/images/today.png
 a2925bfbabb8d7026788b34f84cf25f9 template_preview.png
 04e58a13e050b79e2e9f451812540a2c template_thumbnail.png

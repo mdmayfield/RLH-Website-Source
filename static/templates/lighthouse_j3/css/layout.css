@@ -257,7 +257,7 @@
 
 	/*logo*/
 	.logo-img{
-		background: url(../images/logo.png) no-repeat scroll 0 0 transparent; 
+		background: no-repeat scroll 0 0 transparent; 
 		width: 20px; 
 		height: 20px; 
 		margin: 15px 0 0 0; 
