@@ -1,24 +1,23 @@
 <!-- Include our /layouts/partials/header.html partial -->
 {{ partial "header" . }}
-{{"<!-- begin layouts > index.html  template //-->" | safeHTML}}
+{{"<!-- begin layouts > section > blog.html  template //-->" | safeHTML}}
 <body>
 <!-- Include our /layouts/partials/navbar.html partial -->
 {{ partial "navbar" . }}
-<!-- As this is the homepage, we don't want to list all the content -->
-<!-- So we only show pages whose 'type = "homepage"' in the front-matter -->
-<!-- As there is only one [/content/index.md], that only shows its content here  -->
-<!-- Yes –it is a bit clunky! -->
-{{ range where .Data.Pages "Type" "homepage" }}
-<article>
-<div class="content">
-<!-- Content. is the actual content of '/content/index.md' -->
-{{ .Content }}
-</div>
-<!-- Recent Blog entries. -->
-</article>
-{{ end }}
 
-{{ range first 4 (where .Data.Pages "Section" "blog").ByDate.Reverse }}
+<h1 class="pagetitle">{{ .Title }} Section</h1>
+
+<!-- infobox at top of page -->
+<div class="infobox">
+<ul>
+<li>This is the blog section. It lists all posts placed under <pre>/content/blog/</pre></li>
+<li>By making that <pre>/blog</pre> subdirectory under <pre>/content</pre> we've created a <pre>section</pre> called <pre>blog</pre></li>
+<li>This is the template for that section. It lives at: <pre>/themes/skeletontheme/layouts/section/blog.html</pre></li>
+</ul>
+</div>
+
+<!-- loop through all pages in this 'blog' section -->
+{{ range .Data.Pages }}
 <article>
 <!-- Title, as defined in the front-matter  of /content/blog/<pagename>.md -->
 <!-- Wrap the title in a link to the actual full length article -->
@@ -29,10 +28,9 @@
 </div>
 </article>
 {{ end }}
-
 <!-- This ends the loop started with 'range...' above -->
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
-{{"<!-- end layouts > index.html template //-->" | safeHTML}}
+{{"<!-- end layouts > section > blog.html  template //-->" | safeHTML}}
 </body>
 </html>
