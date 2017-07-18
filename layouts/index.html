@@ -1,9 +1,11 @@
 <!-- Include our /layouts/partials/header.html partial -->
 {{ partial "header" . }}
 {{"<!-- begin layouts > index.html  template //-->" | safeHTML}}
-<body id="page" class="page bg_texture_17 comp_texture_0 element_grad_1">
-<!-- Include our /layouts/partials/navbar.html partial -->
-{{ partial "navbar" . }}
+
+		<div id="mid-block" >
+			<!-- breadcrumbs -->
+		</div>
+
 <!-- As this is the homepage, we don't want to list all the content -->
 <!-- So we only show pages whose 'type = "homepage"' in the front-matter -->
 <!-- As there is only one [/content/index.md], that only shows its content here  -->
@@ -16,6 +18,8 @@
 </div>
 </article>
 {{ end }}
+
+
 
 <div class="wrapper grid-block content-texture ">
 	<div id="main" class="grid-block">

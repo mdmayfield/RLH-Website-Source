@@ -1,8 +1,5 @@
 {{ partial "header" . }}
 {{"<!-- begin layouts > _default > single.html  //-->" | safeHTML}}
-<body id="page" class="page bg_texture_17 comp_texture_0 element_grad_1">
-<!-- Include our /layouts/partials/navbar.html partial -->
-{{ partial "navbar" . }}
 <article>
 <!-- we only want to show the title and date if it's a post [ie. not on static pages] -->
 {{if eq .Type "post"}}

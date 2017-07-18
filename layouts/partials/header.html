@@ -129,6 +129,66 @@ body #Kunena .kblock div.kheader, body #Kunena div.kblock > div.kheader { backgr
 
 {{"<!-- end header partial //-->" | safeHTML}}
 
-<!-- .Site.BaseURL is defined in /config.toml -->
-<!-- When building and testing with 'hugo server --watch' command it will be replaced with http://localhost:1313/ -->
-<!-- Use 'hugo' command [without any flags], to build the production version of your site with the proper BaseURL -->
+<body id="page" class="page bg_texture_17 comp_texture_0 element_grad_1">
+
+{{"<!-- begin navbar //-->" | safeHTML}}
+	<div class="top-bg  "></div>
+	<!-- a small dark toolbar -->
+	<div id="toolbar" class="grid-block">
+		<div class="wrapper grid-block">					
+			<div class="float-right top-links">
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+	 	<header id="header">
+	 		<div id="header-top">	
+				<a id="logo" href="http://runlikehell.band"><span class="logo-img no-size-auto"></span>
+					</a>			
+			</div>
+		</header>
+
+		<div class="sheet header">
+			<div class="sheet-body">
+				<div class="wrapper grid-block">
+					<div class="grid-block">
+						<div id="hmenu" class="grid-block">
+							<nav id="menu">
+								<ul class="menu menu-dropdown">
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+	<li class="level1{{ if $currentPage.IsMenuCurrent "main" . }} active current{{ end }}">
+    	<a href="{{ .URL }}" class="level1{{ if $currentPage.IsMenuCurrent "main" . }} active current{{ end }}">
+    		<span>{{ .Name }}</span>
+    	</a>
+    </li>
+{{ end }}
+
+								</ul>
+							</nav>
+						</div>
+					</div>
+
+{{ if ( $currentPage.Params.showcase ) }}
+<section id="showcase">
+	<div class="showcase-gradient">
+		<div class="header-content grid-block">
+			<div class="module   deepest">
+				<div><p><img src="images/{{ $currentPage.Params.showcase }}" alt="" /></p></div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+
+				</div>
+			</div>
+		</div>
+
+{{"<!-- end navbar //-->" | safeHTML}}
+
+		<div class="sheet main-content">
+			<div class="sheet-body main_texture_0">
+
+{{"<!-- end of header.html //-->" | safeHTML}}
