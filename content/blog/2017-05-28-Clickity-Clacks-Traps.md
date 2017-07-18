@@ -1,6 +1,7 @@
 +++
 date = "2017-05-28"
 title = "CLICKITY-CLACKS, TRAPS & THE GREAT GIG ON THE RISER BY GENE SKIBA"
+image = "images/great-gig-riser.jpg"
 +++
 
 ## CLICKITY - CLACK
