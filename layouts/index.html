@@ -114,8 +114,11 @@
 				</div>
 			</div>
 			<div class="grid-box width100 grid-v">
-				<div class="module mod-box  deepest">
-Slide show test. Files will be {{ range .Params.slideshow }} {{ . }} {{ end }}.
+				<div class="module mod-box  deepest bss-slides diyslideshow">
+					{{ range .Params.slideshow }}
+						<figure><img src="{{ . }}" width="100%" /></figure>
+						<figcaption></figcaption>
+					{{ end }}
 				</div>
 			</div>
 		</aside>
@@ -125,6 +128,18 @@ Slide show test. Files will be {{ range .Params.slideshow }} {{ . }} {{ end }}.
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
 {{"<!-- end layouts > index.html template //-->" | safeHTML}}
+
+	<script src="/js/better-simple-slideshow.js" type="text/javascript"></script>
+	<script>
+		var opts = {
+			auto : {
+				speed : 5000
+			},
+			fullScreen : false
+		};
+
+		makeBSS('.diyslideshow', opts);
+	</script>
 
 	<script>
 		(function($){
