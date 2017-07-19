@@ -2,18 +2,16 @@
 {{ partial "header" . }}
 {{"<!-- begin layouts > bio.html  template //-->" | safeHTML}}
 
-		<div id="mid-block" >
-			<!-- breadcrumbs -->
-		</div>
-
 <div class="wrapper grid-block content-texture ">
 	<div id="main" class="grid-block">
 		<div id="maininner" class="grid-box">
 			<section id="content" class="grid-block">
 				<div id="system-message-container"></div>
 				<div id="system">
+					<article class="item">
 					<div class="content clearfix"></div>
 					{{ .Content }}
+					</article>
 				</div>
 			</section>
 
