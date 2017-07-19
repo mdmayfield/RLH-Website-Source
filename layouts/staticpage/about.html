@@ -1,21 +1,20 @@
 <!-- Include our /layouts/partials/header.html partial -->
 {{ partial "header" . }}
-{{"<!-- begin layouts > bio.html  template //-->" | safeHTML}}
+{{"<!-- begin layouts > about.html  template //-->" | safeHTML}}
 
 <div class="wrapper grid-block content-texture ">
 	<div id="main" class="grid-block">
-		<div id="maininner" class="grid-box">
+		<div id="maininner" class="grid-box" style="width:100%">
 			<section id="content" class="grid-block">
 				<div id="system-message-container"></div>
 				<div id="system">
 					<article class="item">
-					<div class="content clearfix"></div>
-					{{ .Content }}
+					<div class="content clearfix">
+						{{ .Content }}
+					</div>
 					</article>
 				</div>
 			</section>
-
-
 		</div> <!-- maininner end -->
 
 	</div> <!-- main class grid-block end-->
@@ -23,7 +22,7 @@
 
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
-{{"<!-- end layouts > index.html template //-->" | safeHTML}}
+{{"<!-- end layouts > about.html template //-->" | safeHTML}}
 
 
 {{ partial "jQueryLoader" . }}
