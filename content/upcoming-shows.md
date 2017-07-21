@@ -6,7 +6,7 @@ layout = "upcoming-shows"
 showcase = "RLH-Band3.jpg"
 
 [[upcoming.events]]
-year = 2016
+year = 2017
 day = "SAT"
 date = "JUL 8"
 desc = "Hopkins Raspberry Festival - Running of the Bulls"
@@ -14,7 +14,7 @@ city = "Hopkins"
 state = "MN"
 
 [[upcoming.events]]
-year = 2016
+year = 2017
 day = "WED"
 date = "JUL 19"
 desc = "Le Musique Room"
@@ -23,7 +23,7 @@ state = "MN"
 tickets = "http://lemusiqueroom.ticketfly.com/event/1469053-run-like-hell-tribute-pink-saint-michael/"
 
 [[upcoming.events]]
-year = 2016
+year = 2017
 day = "SAT"
 date = "SEP 2"
 desc = "Marion Ross Center"
@@ -32,7 +32,7 @@ state = "MN"
 tickets = "http://actonbroadway.com/concertsevents/"
 
 [[upcoming.events]]
-year = 2016
+year = 2017
 day = "SAT"
 date = "SEP 9"
 desc = "State Theater"
@@ -41,7 +41,7 @@ state = "MN"
 tickets = "https://tickets.vendini.com/ticket-software.html?t=tix&amp;e=844e03f276cb78d6af8d4bbd3129c185&amp;vqitq=13558f67-d510-4f85-b3b4-50c64b00f438&amp;vqitp=9f095c89-9e97-4ef8-8942-6d93489615c5&amp;vqitts=1498748957&amp;vqitc=vendini&amp;vqite=itl&amp;vqitrt=Safetynet&amp;vqith=3dcb8ea5180be20a002e563d81aeffde"
 
 [[upcoming.events]]
-year = 2016
+year = 2017
 day = "SAT"
 date = "NOV 18"
 desc = "Le Musique Room"

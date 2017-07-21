@@ -26,8 +26,31 @@
 						<!-- Start of table of upcoming events-->
 						<table width="100%">
 						<tbody>
+							{{ with .Params.upcoming }}
+								{{ range .events }}
+									<tr>
+									<td colspan="7"><hr /></td>
+									</tr>
+									<tr>
+									<td><span style="font-size: 14pt;">{{ .day }}</span></td>
+									<td><span style="font-size: 14pt;">{{ .date }}</span></td>
+									<td><span style="font-size: 14pt;">{{ .year }}</span></td>
+									<td><span style="font-size: 14pt;">{{ .desc }}<br /></span></td>
+									<td><span style="font-size: 14pt;">{{ .city }}</span></td>
+									<td><span style="font-size: 14pt;">{{ .state }}</span></td>
+									{{ if .tickets }}
+									<td><a href="{{ . }}" target="_blank" rel="alternate noopener noreferrer"><img style="display: block; margin-left: auto; margin-right: auto;" src="images/tickets_button_WEB2.png" alt="" /></a></td>
+									{{ else }}
+									<td style="text-align: center;"><span style="font-size: 14pt;">-free-</span></td>
+									{{ end }}
+									</tr>
+								{{ end }}
+							{{ end }}
+
+
+
+
 							<!-- For each year-->
-							{{ with .page.Params.upcoming }}
 								<!-- Display the year heading-->
 								<!-- Start of table-->
 								<!-- For each event in the current year-->
