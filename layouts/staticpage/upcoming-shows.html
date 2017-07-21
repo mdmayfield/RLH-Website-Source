@@ -29,12 +29,11 @@
 							{{ with .Params.upcoming }}
 								{{ range .events }}
 									<tr>
-									<td colspan="7"><hr /></td>
+									<td colspan="6"><hr /></td>
 									</tr>
 									<tr>
-									<td><span style="font-size: 14pt;">{{ .day }}</span></td>
-									<td><span style="font-size: 14pt;">{{ .date }}</span></td>
-									<td><span style="font-size: 14pt;">{{ .year }}</span></td>
+									<td><span style="font-size: 14pt;">{{ dateFormat "MON" .date }}</span></td>
+									<td><span style="font-size: 14pt;">{{ dateFormat "JAN 2" .date }}</span></td>
 									<td><span style="font-size: 14pt;">{{ .desc }}<br /></span></td>
 									<td><span style="font-size: 14pt;">{{ .city }}</span></td>
 									<td><span style="font-size: 14pt;">{{ .state }}</span></td>
