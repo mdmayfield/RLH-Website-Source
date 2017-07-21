@@ -6,7 +6,9 @@
 	<div class="wrapper">
 		<div class="grid-box width100 grid-h">
 			<div class="module mod-box  deepest">
-				{{ .Content }}
+				<div>
+					{{ .Content }}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -21,10 +23,20 @@
 				<div id="system">
 					<article class="item">
 					<div class="content clearfix">
-
-<!-- Put table of upcoming events here-->
-
-
+						<!-- Start of table of upcoming events-->
+						<table width="100%">
+						<tbody>
+							<!-- For each year-->
+							{{ with .page.Params.upcoming }}
+								<!-- Display the year heading-->
+								<!-- Start of table-->
+								<!-- For each event in the current year-->
+									<!--Display the stuff in a table row-->
+								<!--end of for each event-->
+							<!--end of for each year-->
+						<!--End of table of upcoming events-->
+						</tbody>
+						</table>
 					</div>
 					</article>
 				</div>
