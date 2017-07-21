@@ -27,13 +27,13 @@
 						<table width="100%">
 						<tbody>
 							{{ with .Params.upcoming }}
-								{{ range .events }}
+								{{ range sort .events "date" "asc" }}
 									<tr>
 									<td colspan="6"><hr /></td>
 									</tr>
 									<tr>
-									<td><span style="font-size: 14pt;">{{ dateFormat "MON" .date }}</span></td>
-									<td><span style="font-size: 14pt;">{{ dateFormat "JAN 2" .date }}</span></td>
+									<td><span style="font-size: 14pt;">{{ upper ( dateFormat "Mon" .date ) }}</span></td>
+									<td><span style="font-size: 14pt;">{{ upper ( dateFormat "Jan 2" .date ) }}</span></td>
 									<td><span style="font-size: 14pt;">{{ .desc }}<br /></span></td>
 									<td><span style="font-size: 14pt;">{{ .city }}</span></td>
 									<td><span style="font-size: 14pt;">{{ .state }}</span></td>
