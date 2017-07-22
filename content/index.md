@@ -8,6 +8,8 @@ showcase = "Header-Graphic-md.jpg"
 weight = -1
 +++
 
+<!-- SEE _index.md FOR SLIDESHOW SETTINGS AND OTHER -->
+
 <section id="top-b" class="grid-block">
 	<div class="wrapper">
 		<div class="grid-box width100 grid-h">
