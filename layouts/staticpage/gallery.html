@@ -2,6 +2,17 @@
 {{ partial "header" . }}
 {{"<!-- begin layouts > gallery.html  template //-->" | safeHTML}}
 
+<section id="slide-zone">
+	<div class="module   deepest">
+		<div class="bss-slides diyslideshow">
+			{{ range .Params.slideshow }}
+			<figure><img src="{{ . }}" width="100%" /></figure>
+			<figcaption></figcaption>
+			{{ end }}
+		</div> <!-- slideshow div end -->
+	</div> <!--module deepest div end-->
+</section>
+
 <div class="wrapper grid-block content-texture ">
 	<div id="main" class="grid-block">
 		<div id="maininner" class="grid-box" style="width:100%">
@@ -11,12 +22,6 @@
 					<article class="item">
 						<div class="content clearfix">
 							<div class="grid-box width100 grid-v">
-								<div class="module mod-box  deepest bss-slides diyslideshow">
-									{{ range .Params.slideshow }}
-										<figure><img src="{{ . }}" width="100%" /></figure>
-										<figcaption></figcaption>
-									{{ end }}
-								</div>
 							</div>
 						</div>
 					</article>
