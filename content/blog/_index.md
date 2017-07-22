@@ -2,12 +2,13 @@
 date = "2015-10-17T18:03:08+01:00"
 title = "Blog"
 type = "staticpage"
+showcase = "/gallery_images/s055.jpg"
 
 [menu.main]
 weight = 5
 +++
 
-### WHAT THE WHAT THIS IS OUR DOPE GALLERY HOLY F MAN ###
+### Content/blog/_index.md ###
 
 <!-- I've written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy -->
 <div class="infobox">

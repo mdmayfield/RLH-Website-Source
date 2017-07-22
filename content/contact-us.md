@@ -2,12 +2,13 @@
 date = "2015-10-17T18:03:08+01:00"
 title = "Contact Us"
 type = "staticpage"
+showcase = ""
 
 [menu.main]
 weight = 6
 +++
 
-### HIT ME UP BRO ###
+### Contact Us Placeholder Page ###
 
 <!-- I've written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy -->
 <div class="infobox">
