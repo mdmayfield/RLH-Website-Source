@@ -129,10 +129,6 @@
 	</div>
 </div>
 
-<!-- Include our /layouts/partials/footer.html partial -->
-{{ partial "footer" . }}
-{{"<!-- end layouts > index.html template //-->" | safeHTML}}
-
 <!-- https://github.com/leemark/better-simple-slideshow -->
 
 	<script src="/js/better-simple-slideshow.js" type="text/javascript"></script>
@@ -148,7 +144,9 @@
 		makeBSS('.diyslideshow', opts);
 	</script>
 
-{{ partial "jQueryLoader" . }}
+<!-- Include our /layouts/partials/footer.html partial -->
+{{ partial "footer" . }}
+{{"<!-- end layouts > index.html template //-->" | safeHTML}}
 
 </body>
 </html>

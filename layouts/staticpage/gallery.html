@@ -32,10 +32,6 @@
 	</div> <!-- main class grid-block end-->
 </div> <!-- wrapper grid-block content-texture end-->
 
-<!-- Include our /layouts/partials/footer.html partial -->
-{{ partial "footer" . }}
-{{"<!-- end layouts > gallery.html template //-->" | safeHTML}}
-
 	<script src="/js/better-simple-slideshow.js" type="text/javascript"></script>
 	<script>
 		var opts = {
@@ -49,7 +45,9 @@
 		makeBSS('.diyslideshow', opts);
 	</script>
 
-{{ partial "jQueryLoader" . }}
+<!-- Include our /layouts/partials/footer.html partial -->
+{{ partial "footer" . }}
+{{"<!-- end layouts > gallery.html template //-->" | safeHTML}}
 
 </body>
 </html>
