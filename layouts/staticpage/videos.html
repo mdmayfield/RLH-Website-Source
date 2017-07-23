@@ -14,7 +14,7 @@
     <div class="row-fluid">
     	<ul class="thumbnails">
     	
-			{{ range first 3 .Params.video }}    	 
+			{{ range $i, $vid := .Params.video }}    	 
                 <li class="span4">
                 	<div class="thumbnail">
       					<a class="youtube avs-thumbnail" href="http://www.youtube.com/watch?v={{ .code }}" data-lity>
@@ -26,6 +26,9 @@
                         </div>
                     </div>
                 </li> 
+                {{ if not ( mod (add $i 1) 3 ) }}
+                	</ul><ul class="thumbnails">
+                {{ end }}
             {{ end }}
         </ul>
    	</div>
