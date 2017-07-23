@@ -1,16 +1,6 @@
 <!-- Include our /layouts/partials/header.html partial -->
 {{ partial "header" . }}
 {{"<!-- begin layouts > section > blog.html  template //-->" | safeHTML}}
-<h1 class="pagetitle">{{ .Title }} Placeholder Page</h1>
-
-<!-- infobox at top of page -->
-<div class="infobox">
-<ul>
-<li>This is the blog section. It lists all posts placed under <pre>/content/blog/</pre></li>
-<li>By making that <pre>/blog</pre> subdirectory under <pre>/content</pre> we've created a <pre>section</pre> called <pre>blog</pre></li>
-<li>This is the template for that section. It lives at: <pre>/themes/skeletontheme/layouts/section/blog.html</pre></li>
-</ul>
-</div>
 
 <!-- loop through all pages in this 'blog' section -->
 {{ range .Data.Pages }}
