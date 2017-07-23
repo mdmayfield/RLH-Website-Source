@@ -15,16 +15,9 @@ Grid Layout Styles
 .gallery .box {
     float: left;
     position: relative;
-    /* Default: 1 tile wide */
-    width: 100%;
-    padding-bottom: 100%; 
-}
-@media only screen and (min-width : 365px) {
-    /* Tablet view: 2 tiles */
-    .gallery .box {
-        width: 50%;
-        padding-bottom: 50%;
-    }
+    /* Default: 2 tiles wide */
+    width: 50%;
+    padding-bottom: 50%; 
 }
 @media only screen and (min-width : 480px) {
     /* Small desktop / ipad view: 3 tiles */

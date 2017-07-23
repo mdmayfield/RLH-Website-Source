@@ -9,7 +9,7 @@ weight = 3
 
 +++
 <h1 style="text-align: center">Photo Gallery</h1>
-<p style="text-align: center">Click a photo for a larger version. Left and Right arrows for previous/next photo.</p>
+<p style="text-align: center">Click a photo for a larger version.</p>
 
 {{< load-photoswipe >}}
 {{< gallery dir="images/gallery_images" />}}
