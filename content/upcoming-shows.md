@@ -6,66 +6,46 @@ layout = "upcoming-shows"
 showcase = "RLH-Band3.jpg"
 
 [[upcoming.events]]
-date = "2017-07-08"
-desc = "Hopkins Raspberry Festival - Running of the Bulls"
-city = "Hopkins"
-state = "MN"
-
-[[upcoming.events]]
-date = "2017-07-19"
-desc = "Le Musique Room"
-city = "St. Michael"
-state = "MN"
-tickets = "http://lemusiqueroom.ticketfly.com/event/1469053-run-like-hell-tribute-pink-saint-michael/"
-
-[[upcoming.events]]
 date = "2017-09-02"
 desc = "Marion Ross Center"
-city = "Albert Lea"
-state = "MN"
+city = "Albert Lea, MN"
 tickets = "http://actonbroadway.com/concertsevents/"
 
 [[upcoming.events]]
 
 date = "2017-09-09"
 desc = "State Theater"
-city = "Zumbrota"
-state = "MN"
+city = "Zumbrota, MN"
 tickets = "https://tickets.vendini.com/ticket-software.html?t=tix&amp;e=844e03f276cb78d6af8d4bbd3129c185&amp;vqitq=13558f67-d510-4f85-b3b4-50c64b00f438&amp;vqitp=9f095c89-9e97-4ef8-8942-6d93489615c5&amp;vqitts=1498748957&amp;vqitc=vendini&amp;vqite=itl&amp;vqitrt=Safetynet&amp;vqith=3dcb8ea5180be20a002e563d81aeffde"
 
 [[upcoming.events]]
 date = "2017-11-18"
 desc = "Le Musique Room"
-city = "St. Michael"
-state = "MN"
+city = "St. Michael, MN"
 tickets = "https://lemusiqueroom.com/upcoming-shows"
 
 [[upcoming.events]]
 date = "2018-01-27"
 desc = "Mabel Tainter Center"
-city = "Menomonie"
-state = "WI"
+city = "Menomonie, WI"
 tickets = "http://www.mabeltainter.org/"
 
 [[upcoming.events]]
 date = "2018-03-01"
 desc = "Cowles Center for Performing Arts (With Twin Cities Ballet)"
-city = "Minneapolis"
-state = "MN"
+city = "Minneapolis, MN"
 tickets = "http://www.thecowlescenter.org/calendar-tickets/twin-cities-ballet-minnesota-1"
 
 [[upcoming.events]]
 date = "2018-03-02"
 desc = "Cowles Center for Performing Arts (With Twin Cities Ballet)"
-city = "Minneapolis"
-state = "MN"
+city = "Minneapolis, MN"
 tickets = "http://www.thecowlescenter.org/calendar-tickets/twin-cities-ballet-minnesota-1"
 
 [[upcoming.events]]
 date = "2018-03-03"
 desc = "Cowles Center for Performing Arts (With Twin Cities Ballet)"
-city = "Minneapolis"
-state = "MN"
+city = "Minneapolis, MN"
 tickets = "http://www.thecowlescenter.org/calendar-tickets/twin-cities-ballet-minnesota-1"
 
 

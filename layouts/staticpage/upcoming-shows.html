@@ -24,7 +24,7 @@
 					<article class="item">
 					<div class="content clearfix">
 						<!-- Start of table of upcoming events-->
-						<table width="100%">
+						<table style="width: 100%;">
 						<tbody>
 							{{ with .Params.upcoming }}
 								{{ $.Scratch.Set "year" "" }}
@@ -33,42 +33,23 @@
 									{{ if $eventDate.After now }}
 										{{ if ne (dateFormat "2006" .date) ($.Scratch.Get "year") }}
 											{{ $.Scratch.Set "year" (dateFormat "2006" .date) }}
-											<tr>
-											<td colspan="6"><hr /></td>
-											</tr>
-											<tr>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											</tr>
-											<tr>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											</tr>
-											<tr>
-											<td style="text-align: center;" colspan="6"><span style="font-size: 18pt;">{{ dateFormat "2006" .date }}</span></td>
-											</tr>
+											<tr><td colspan="4"><hr /></td></tr>
+											<tr><td style="text-align: center;" colspan="4"><span style="font-size: 18pt;">{{ dateFormat "2006" .date }}</span></td></tr>
 										{{ end }}
 										<tr>
-										<td colspan="6"><hr /></td>
+										<td colspan="4"><hr /></td>
 										</tr>
 										<tr>
-										<td><span style="font-size: 14pt;">{{ upper ( dateFormat "Mon" .date ) }}</span></td>
-										<td><span style="font-size: 14pt;">{{ upper ( dateFormat "Jan 2" .date ) }}</span></td>
-										<td><span style="font-size: 14pt;">{{ .desc }}<br /></span></td>
+										<td><span style="font-size: 14pt;">{{ upper ( dateFormat "Mon" .date ) }} {{ upper ( dateFormat "Jan 2" .date ) }}</span></td>
+										<td><span style="font-size: 14pt;">
+										{{ if .tickets }}<a href="{{ .tickets }}" target="_blank" rel="alternate noopener noreferrer">{{ end }}
+										{{ .desc }}<br /></span></td>
+										{{ if .tickets }}</a>{{ end }}
 										<td><span style="font-size: 14pt;">{{ .city }}</span></td>
-										<td><span style="font-size: 14pt;">{{ .state }}</span></td>
 										{{ if .tickets }}
 										<td><a href="{{ .tickets }}" target="_blank" rel="alternate noopener noreferrer"><img style="display: block; margin-left: auto; margin-right: auto;" src="images/tickets_button_WEB2.png" alt="" /></a></td>
 										{{ else }}
-										<td style="text-align: center;"><span style="font-size: 14pt;">-free-</span></td>
+										<td style="text-align: center;"><span style="font-size: 14pt;">free</span></td>
 										{{ end }}
 										</tr>
 									{{ end }}
