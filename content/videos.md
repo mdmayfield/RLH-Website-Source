@@ -5,12 +5,28 @@ type = "staticpage"
 layout = "videos"
 
 [[video]]
+code = "U6S3jQxQCMs"
+title = "Promotional Video"
+
+[[video]]
 code = "Qw1lcgY411s"
 title = "Have a Cigar"
 
 [[video]]
 code = "GqYCNrkeuAo"
 title = "Brain Damage"
+
+[[video]]
+code = "xK_EX_m59AE"
+title = "Run Like Hell"
+
+[[video]]
+code = "y-0eOI8ghKQ"
+title = "Great Gig In The Sky"
+
+[[video]]
+code = "rQxnajHBepk"
+title = "Pigs (Three Different Ones)"
 
 [menu.main]
 weight = 4
