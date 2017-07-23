@@ -31,8 +31,8 @@
 		})(jQuery);
 	}
 </script>
-{{ if $.Page.Scratch.Get "photoswipeloaded" }}
-<script src="/js/load-photoswipe.js"></script>
+{{ if eq .Page.Params.layout "gallery" }}
+<script src="/js/load-photoswipe.js" defer></script>
 {{ end }}
 
 
