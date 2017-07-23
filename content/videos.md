@@ -4,13 +4,13 @@ title = "Videos"
 type = "staticpage"
 layout = "videos"
 
-[[testvar]]
-value = 1
-string = "something goes here"
+[[video]]
+code = "Qw1lcgY411s"
+title = "Have a Cigar"
 
-[[testvar]]
-value = 2
-string = "something else goes here"
+[[video]]
+code = "GqYCNrkeuAo"
+title = "Brain Damage"
 
 [menu.main]
 weight = 4
