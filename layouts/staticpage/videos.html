@@ -1,12 +1,16 @@
 <!-- Include our /layouts/partials/header.html partial -->
 {{ partial "header" . }}
-{{"<!-- begin layouts > gallery.html  template //-->" | safeHTML}}
+{{"<!-- begin layouts > videos.html  template //-->" | safeHTML}}
 
 <div class="wrapper grid-block content-texture ">
 	<div id="main" class="grid-block">
 		<div id="maininner" class="grid-box" style="width:100%">
 			<section id="content" class="grid-block">
 				{{ .Content }}
+				{{ range .Params.testvar }}
+				<p>Value is {{ .value }} and string is "{{ .string }}"!</p>
+				{{ end }}
+				
 			</section>
 		</div> <!-- maininner end -->
 	</div> <!-- main class grid-block end-->
@@ -15,9 +19,7 @@
 
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
-{{"<!-- end layouts > gallery.html template //-->" | safeHTML}}
-
-<script src="/js/load-photoswipe.js" defer></script>
+{{"<!-- end layouts > videos.html template //-->" | safeHTML}}
 
 </body>
 </html>
