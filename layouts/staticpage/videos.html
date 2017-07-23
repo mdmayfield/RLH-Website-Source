@@ -1,8 +1,6 @@
 <!-- Include our /layouts/partials/header.html partial -->
 {{ partial "header" . }}
 
-<link rel="stylesheet" href="css/thumbnails.css" />
-
 {{"<!-- begin layouts > videos.html  template //-->" | safeHTML}}
 
 <div class="wrapper grid-block content-texture ">
@@ -16,10 +14,10 @@
     <div class="row-fluid">
     	<ul class="thumbnails">
     	
-			{{ range .Params.video }}    	 
+			{{ range first 3 .Params.video }}    	 
                 <li class="span4">
                 	<div class="thumbnail">
-      					<a class="youtube" href="http://www.youtube.com/watch?v={{ .code }}" data-lity>
+      					<a class="youtube avs-thumbnail" href="http://www.youtube.com/watch?v={{ .code }}" data-lity>
                         	<div class="avs-image" style="background-image: url(https://img.youtube.com/vi/{{ .code }}/default.jpg);">&nbsp;</div>
                             <img class="avs-play-icon" src="images/play.png" alt="{{ .title }}" />
                         </a>
