@@ -3,7 +3,7 @@ date = "2015-10-17T18:03:08+01:00"
 title = "Upcoming Shows"
 type = "staticpage"
 layout = "upcoming-shows"
-showcase = "RLH-Band3.jpg"
+showcase = "/images/RLH-Band3.jpg"
 
 [[upcoming.events]]
 date = "2017-09-02"

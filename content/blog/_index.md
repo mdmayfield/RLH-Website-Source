@@ -2,7 +2,7 @@
 date = "2015-10-17T18:03:08+01:00"
 title = "Blog"
 type = "staticpage"
-showcase = "/gallery_images/s055.jpg"
+showcase = "/images/gallery_images/s055.jpg"
 
 [menu.main]
 weight = 5
