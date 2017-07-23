@@ -93,7 +93,6 @@ h1, h2, h3, h4, h5, h6{text-rendering:optimizelegibility;}
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, .module-title .color{font-weight:normal}
 h1.extra-large{font-size:85px;line-height:0.75;}
 a{color:#48b;}
-em, code{color:#d50;}
 ins, mark{background-color:#ffa;}
 mark{color:#444;}
 hr{border-top-color:#ddd;}
