@@ -88,6 +88,10 @@ body #Kunena .kblock div.kheader, body #Kunena div.kblock > div.kheader { backgr
 
 <link rel="stylesheet" href="/css/combined2.min.css" />
 
+{{ if eq .Page.Params.layout "videos" }}
+<link rel="stylesheet" href="css/lity.min.css">
+{{ end }}
+
 <script src="/templates/lighthouse_j3/warp/js/warp2.js" defer></script>
 <script src="/templates/lighthouse_j3/warp/js/responsive.js" defer></script>
 <script src="/templates/lighthouse_j3/warp/js/accordionmenu.js" defer></script>
