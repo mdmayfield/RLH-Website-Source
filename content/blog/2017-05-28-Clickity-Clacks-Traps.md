@@ -5,7 +5,7 @@ author = "Gene Skiba"
 image = "/images/great-gig-riser.jpg"
 +++
 
-## CLICKITY - CLACK
+### CLICKITY - CLACK
 
 "Clickity-clack down the railroad track," as my father used to sing. No, here we're referring to a method of marking tempo in music commonly referred to as a click track.
 
@@ -15,7 +15,7 @@ Ok, both valid points. Unfortunately, many times these attitudes spring from a l
 
 That's great. When we communicate through the amazing beauty of music, what we're really doing is sharing pieces of ourselves. What drives us, inspires us, angers or enlightens us. Nobody wants to have restraints or restrictions placed around their ideas, dreams and creativity. However, when playing music there must be a modicum of structure; a bottom line that suggests here is where the pulse lies, now everything can be built upon it. An amazing house will crumble without a solid foundation.
 
-## TRAPS
+### TRAPS
 
 In 1909, two brothers named Theobald and William Ludwig invented the first bass drum foot pedal. This was significant for a number of reasons; up until this time, an orchestra  needed to hire two drummers at minimum to power their ensembles. One played the bass drum with hand-held mallets, standing up, while the other played the snare drum. The bass drum pedal allowed for just one drummer to sit down and play the bass drum with his foot, while both hands were free to play the snare. This was a critical invention to both the creation of jazz and swing - dance music, as well as to the evolution of the modern "trap set." (The sound effects and other percussion instruments were often referred to as "traps" in those days.) Traditional orchestras continued on, and certainly do to this day, but this new kind of music, often made up of bands with considerably less personnel than full orchestras, was about to take the world by storm.
 
@@ -23,7 +23,7 @@ The second reason this is so significant is that these smaller bands didn't rely
 
 Behind a gleaming set of drums.
 
-## THE GREAT GIG ON THE RISER
+### THE GREAT GIG ON THE RISER
 
 Many of the greatest rock bands that have ever been did or do not play to a click track, at least in their earlier days if they are still making music today. (Ex.The Rolling Stones)
 
