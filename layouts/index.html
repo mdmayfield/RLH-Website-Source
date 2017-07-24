@@ -60,36 +60,7 @@
 						<div class="module mod-box  deepest">
 							<div id="fd" class="eb eb-mod mod_easybloglatestblogs">
 								<div class="eb-mod mod-items-grid clearfix">
-					<!-- Loop through Blog type pages -->
-								{{ range $i, $b := first 4 (where .Data.Pages "Section" "blog").ByDate.Reverse }}
-									<div class="mod-grid mod-grid-{{ add ( mod $i 2 ) 1 }}" style="width:50%;">
-										<div class="mod-item">
-											<div class="eb-mod-head mod-table align-middle">
-												<div class="mod-cell">
-													<div class="mod-muted mod-small mod-fit">{{ .Date.Format "January 1, 2006" }}</div>
-												</div>
-											</div>
-											<div class="eb-mod-context">
-											{{ if .Params.image }}
-												<div class="eb-mod-thumb is-center is-full">
-													<a href="{{ .URL }}" class="eb-mod-image-cover"
-														style="background-image: url('{{ .Params.image }}');
-														width: 100%;
-														height: 200px;"
-														></a>
-												</div>
-											{{ end }}
-											<div class="eb-mod-title">
-												<a href="{{ .URL }}" class="eb-mod-media-title">{{ .Title }}</a>
-											</div>
-											<div class="eb-mod-body">
-												{{ .Summary }}<a href="{{ .URL }}"> Read More...</a>
-											</div>
-										</div>
-									</div>
-									</div>
-								{{ end }}
-
+{{ partial "blogposts" $ }}
 								</div>
 							</div>
 						</div>
