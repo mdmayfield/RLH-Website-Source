@@ -60,11 +60,9 @@
 						<div class="module mod-box  deepest">
 							<div id="fd" class="eb eb-mod mod_easybloglatestblogs">
 								<div class="eb-mod mod-items-grid clearfix">
-					<!-- Set grid variable -->
-								{{ $.Scratch.Set "grid" 1 }}
 					<!-- Loop through Blog type pages -->
-								{{ range first 4 (where .Data.Pages "Section" "blog").ByDate.Reverse }}
-									<div class="mod-grid mod-grid-{{ $.Scratch.Get "grid" }}" style="width:50%;">
+								{{ range $i, $b := first 4 (where .Data.Pages "Section" "blog").ByDate.Reverse }}
+									<div class="mod-grid mod-grid-{{ add ( mod $i 2 ) 1 }}" style="width:50%;">
 										<div class="mod-item">
 											<div class="eb-mod-head mod-table align-middle">
 												<div class="mod-cell">
@@ -95,10 +93,6 @@
 										</div>
 									</div>
 									</div>
-
-					<!-- Alternate grid between 1 and 2 for columns -->
-								{{ $.Scratch.Set "grid" ( sub 3 ($.Scratch.Get "grid") ) }}
-
 								{{ end }}
 
 								</div>
