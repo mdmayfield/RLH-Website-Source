@@ -1,10 +1,6 @@
 {{ partial "header" . }}
 {{"<!-- begin layouts > blog > single.html  //-->" | safeHTML}}
 
-{{"<!-- TODO: move this style sheet into combined2.css -->" | safeHTML}}
-<link rel="stylesheet" href="css/blog.css" />
-
-
 <div class="wrapper grid-block content-texture ">
 	<div id="main" class="grid-block">
 		<div id="maininner" class="grid-box" style="width:100%">
@@ -14,26 +10,11 @@
 						<div class="module mod-box  deepest">	
 
 <article class="blog">
-<h1>{{ .Title }}</h1>
- <p>{{ with .Params.author }}by {{ . }} — {{ end }}{{ .Date.Format "Monday, Jan 02, 2006" }}</p>
+{{ with .Params.image }}<image src="{{ . }}" style="display: block; margin: auto; height: 300px; width: auto;"/>{{ end }}
+<h1 style="text-align: center;">{{ .Title }}</h1>
+<p style="text-align: center;">{{ with .Params.author }}by {{ . }} — {{ end }}{{ .Date.Format "Monday, Jan 02, 2006" }}</p>
 <div class="content">
 {{ .Content }}
-</div>
-<!-- we only want to show the tags section at the bottom if it's a post [ie. not on static pages] -->
-{{if eq .Type "post"}}
-<!-- tags for each post are defined in the front-matter: tags = ["tag1","tag2","tag3"]-->
-<div class="tags">
-<b>TAGS:</b>
-<!-- loop through the array of tags -->
-{{range .Params.tags}}
-<!-- within the loop the dot '.' = the current item [in this case current tag] -->
-<a href="/tags/{{.}}">{{.}}</a>,&nbsp;
-{{end}}
-<!-- end range loop -->
-{{else}}
-<!-- not a post page, so do nowt -->
-{{end}}
-<!-- end the if...else -->
 </div>
 </article>
 

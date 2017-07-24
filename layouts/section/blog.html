@@ -2,20 +2,32 @@
 {{ partial "header" . }}
 {{"<!-- begin layouts > section > blog.html  template //-->" | safeHTML}}
 
-<!-- loop through all pages in this 'blog' section -->
+<div class="wrapper grid-block content-texture ">
+	<div id="main" class="grid-block">
+		<div id="maininner" class="grid-box" style="width:100%">
+			<section id="innertop-a" class="grid-block">
+				<div class="wrapper">
+					<div class="grid-box width100 grid-h">
+						<div class="module mod-box  deepest">	
+
 {{ range .Data.Pages }}
 <article>
-<!-- Title, as defined in the front-matter  of /content/blog/<pagename>.md -->
-<!-- Wrap the title in a link to the actual full length article -->
 <a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
+<p>{{ with .Params.author }}by {{ . }} — {{ end }}{{ .Date.Format "Monday, Jan 02, 2006" }}</p>
 <div class="content">
-<!-- Just show a summary. Not the full post -->
 {{ .Summary }} <a href="{{ .Permalink }}">[READ MORE...]</a>
 </div>
 </article>
 {{ end }}
-<!-- This ends the loop started with 'range...' above -->
-<!-- Include our /layouts/partials/footer.html partial -->
+
+						</div>
+					</div>
+				</div>
+			</section>
+		</div> <!-- maininner end -->
+	</div> <!-- main class grid-block end-->
+</div> <!-- wrapper grid-block content-texture end-->
+
 {{ partial "footer" . }}
 {{"<!-- end layouts > section > blog.html  template //-->" | safeHTML}}
 </body>
