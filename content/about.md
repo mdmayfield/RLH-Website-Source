@@ -69,7 +69,7 @@ weight = 1
 <p style="text-align: center;"><span style="font-size: 18pt;"><span style="font-size: 14pt;">Ben Beaver</span><br /></span></p>
 <p><span style="font-size: 10pt;">(Stage Tech)</span></p>
 </td>
-<td style="width: 25%; text-align: center; vertical-align: top;" width="25%"><img src="" alt="" />
+<td style="width: 25%; text-align: center; vertical-align: top;" width="25%"><img src="/images/Shannon.jpg" alt="" />
 <p style="text-align: center;"><span style="font-size: 18pt;"><span style="font-size: 14pt;">Shannon Ward</span><br /></span></p>
 <p><span style="font-size: 10pt;">(Sound Engineer)</span></p>
 </td>
