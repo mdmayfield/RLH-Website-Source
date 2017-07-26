@@ -11,4 +11,7 @@
 # Don't upload content of public dir. It is generated automatically when 'hugo' or 'hugo server' is run, anyway.
 # Won't someone think of the bandwidth!
 public/
+
+# Don't upload hugodeploy stuff (this will be per computer)
 hugodeploy.yaml
+deployed/
