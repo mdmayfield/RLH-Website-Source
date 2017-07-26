@@ -1,4 +1,5 @@
-baseurl = "https://personnel-officer-investigation-32320.netlify.com"
+# baseurl = "https://personnel-officer-investigation-32320.netlify.com"  # DEV
+baseurl = "http://www.runlikehell.band" # PROD
 languageCode = "en-ie"
 title = "Run Like Hell: America's Premier Pink Floyd Show"
 theme="skeletontheme"
