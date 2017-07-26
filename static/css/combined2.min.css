@@ -9,7 +9,6 @@
 .logo-img{background-size:contain}
 .module .badge{width:45px;height:45px;background-image:url(../images/widget/module_badges.png);background-repeat:no-repeat;}
 .module.badge-hot, .module.badge-top, .module.badge-free, .module.badge-new{padding:20px;margin:20px 15px;border:1px solid #FFFFFF;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.15);-moz-box-shadow:0 2px 5px rgba(0,0,0,0.25);-ms-box-shadow:0 2px 5px rgba(0,0,0,0.25);-o-box-shadow:0 2px 5px rgba(0,0,0,0.25);box-shadow:0 2px 5px rgba(0,0,0,0.15);}
-}
 .module .badge-hot{background-position:0 0;}
 .module .badge-new{background-position:0 -46px;}
 .module .badge-free{background-position:0 -92px;}
@@ -885,6 +884,7 @@ li{line-height:20px;}
 .thumbnail .caption{padding:9px;color:#555555;}
 
 input[type="text"],input[type="email"],textarea[name="message"] {width:88%;}
-@media(min-width:500px;){
-input[type="text"],input[type="email"],textarea[name="message"] {width:100%;} }
+@media(min-width:500px){
+input[type="text"],input[type="email"],textarea[name="message"] {width:100%;}
 input[type="text"],input[type="email"],textarea[name="message"] {font-size: 14pt;}
+}
