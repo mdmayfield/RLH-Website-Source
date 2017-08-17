@@ -9,14 +9,14 @@ showcase = "/images/RLH-Band3.jpg"
 date = "2017-09-02"
 desc = "Marion Ross Center"
 city = "Albert Lea, MN"
-tickets = "http://actonbroadway.com/concertsevents/"
+tickets = "https://www.wiztix.com/dnboxoffice/inet/eventview.aspx?cid=42"
 
 [[upcoming.events]]
 
 date = "2017-09-09"
 desc = "State Theater"
 city = "Zumbrota, MN"
-tickets = "https://tickets.vendini.com/ticket-software.html?t=tix&amp;e=844e03f276cb78d6af8d4bbd3129c185&amp;vqitq=13558f67-d510-4f85-b3b4-50c64b00f438&amp;vqitp=9f095c89-9e97-4ef8-8942-6d93489615c5&amp;vqitts=1498748957&amp;vqitc=vendini&amp;vqite=itl&amp;vqitrt=Safetynet&amp;vqith=3dcb8ea5180be20a002e563d81aeffde"
+tickets = "https://tickets.vendini.com/ticket-software.html?t=tix&e=844e03f276cb78d6af8d4bbd3129c185&vqitq=13558f67-d510-4f85-b3b4-50c64b00f438&vqitp=9f095c89-9e97-4ef8-8942-6d93489615c5&vqitts=1498748957&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=3dcb8ea5180be20a002e563d81aeffde"
 
 [[upcoming.events]]
 date = "2017-11-18"
