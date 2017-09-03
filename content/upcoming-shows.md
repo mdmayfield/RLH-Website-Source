@@ -48,6 +48,11 @@ desc = "Cowles Center for Performing Arts (With Twin Cities Ballet)"
 city = "Minneapolis, MN"
 tickets = "http://www.thecowlescenter.org/calendar-tickets/twin-cities-ballet-minnesota-1"
 
+[[upcoming.events]]
+date = "2017-10-14"
+desc = "Historic Mounds Theatre"
+city = "Saint Paul, MN"
+tickettext = ""
 
 [menu.main]
 weight = 2
