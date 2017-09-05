@@ -13,6 +13,9 @@ weight = 3
 
 {{< load-photoswipe >}}
 
+### Marion Ross Center, Albert Lea, MN - September 2, 2017
+{{< gallery dir="/images/gallery_MarionRossCenter_images" />}}
+
 ### Le Musique Room, St. Michael, MN - July 19, 2017
 {{< gallery dir="/images/gallery_LeMusiqueRoom_images" />}}
 
