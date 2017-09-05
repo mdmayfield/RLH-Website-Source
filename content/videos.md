@@ -9,6 +9,10 @@ code = "U6S3jQxQCMs"
 title = "Promotional Video"
 
 [[video]]
+code = "h8_td3kZWw0"
+title = "Stage Setup Time-Lapse"
+
+[[video]]
 code = "Qw1lcgY411s"
 title = "Have a Cigar"
 
