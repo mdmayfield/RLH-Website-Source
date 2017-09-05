@@ -7,8 +7,8 @@ image = "/images/blog-images/Bryce.jpg"
 
 Our new friend and fan Bryce tells his story from Saturday's show at the Marion Ross Center:
 
-"
-With one of her happy caretakers, ma's all set!
+---
+" With one of her happy caretakers, ma's all set!
 
 Rather humbling to have to bathe her, but we got 'er done. And she even broke out her favorite lipstick! From his web site, got the David Gilmour official tour shirt and she couldn't wait for a night of Pink Floyd music. Plus, at Darlington it's Throwback Weekend, so I broke out the '70's shades and Dale Earnhardt Sr. shirt!
 
@@ -34,9 +34,9 @@ From ma remembering lyrics to Time, to a great show ... this was much, much need
 
 We're born; we live; we die. And musicians and talent like these make that life seem worthy.
 
-Thank you https://www.facebook.com/RunLikeHellTributeBand/
-"
+Thank you https://www.facebook.com/RunLikeHellTributeBand/ "
 
+---
 Thank you, Bryce, for sharing your story and for reminding us of what's really important.
 
 Matt
