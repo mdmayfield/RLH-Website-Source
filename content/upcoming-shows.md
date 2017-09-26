@@ -49,12 +49,6 @@ city = "Minneapolis, MN"
 tickets = "http://www.thecowlescenter.org/calendar-tickets/twin-cities-ballet-minnesota-1"
 
 [[upcoming.events]]
-date = "2017-10-14"
-desc = "Historic Mounds Theatre"
-city = "Saint Paul, MN"
-ticketswhenavailable = "https://apps.vendini.com/ticket-software.html?m=c282f49a89c250427ffb3291e1dbb22f&t=tix&vqitq=c5cfb6f2-df83-4aa0-8701-1d15bbdad5aa&vqitp=3d992559-9095-4074-89e3-f5945398eefb&vqitts=1456701683&vqitc=vendini&vqite=itlwww&vqitrt=Safetynet&vqith=f163181b3c33a195dd5864ab9f8d8a39"
-
-[[upcoming.events]]
 date = "2017-11-04"
 desc = "Central Square Cultural and Civic Center"
 city = "Glenwood, MN"
