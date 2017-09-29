@@ -58,7 +58,7 @@ ticketswhenavailable = "https://ticketpeak.com/res/centralsquare"
 date = "2017-12-02"
 desc = "Little Theater of New London"
 city = "New London, MN"
-ticketswhenavailable = "http://www.newlondonlittletheatre.com/tickets.html?ticketing=crp"
+tickets = "http://www.newlondonlittletheatre.com/tickets.html?ticketing=crp"
 
 [menu.main]
 weight = 2
