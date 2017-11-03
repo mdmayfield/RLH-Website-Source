@@ -52,7 +52,7 @@ tickets = "http://www.thecowlescenter.org/calendar-tickets/twin-cities-ballet-mi
 date = "2017-11-04"
 desc = "Central Square Cultural and Civic Center"
 city = "Glenwood, MN"
-ticketswhenavailable = "https://ticketpeak.com/res/centralsquare"
+tickets = "https://www.eventbrite.com/e/run-like-hell-pink-floyd-tribute-at-central-square-tickets-38635995302"
 
 [[upcoming.events]]
 date = "2017-12-02"
