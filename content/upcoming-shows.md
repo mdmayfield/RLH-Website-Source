@@ -12,7 +12,6 @@ city = "Albert Lea, MN"
 tickets = "https://www.wiztix.com/dnboxoffice/inet/eventview.aspx?cid=42"
 
 [[upcoming.events]]
-
 date = "2017-09-09"
 desc = "State Theater"
 city = "Zumbrota, MN"
@@ -64,6 +63,26 @@ tickets = "http://www.newlondonlittletheatre.com/tickets.html?ticketing=crp"
 date="2018-01-13"
 desc="Paradise Center for the Arts"
 city = "Faribault, MN"
+
+[[upcoming.events]]
+date = "2018-04-07"
+desc = "State Theater"
+city = "Zumbrota, MN"
+
+[[upcoming.events]]
+date = "2018-05-05"
+desc = "Marion Ross Center"
+city = "Albert Lea, MN"
+
+[[upcoming.events]]
+date = "2018-05-19"
+desc = "Potter Auditorium"
+city = "Chatfield, MN"
+
+[[upcoming.events]]
+date = "2018-07-07"
+desc = "Fairmont Opera House"
+city = "Fairmont, MN"
 
 [menu.main]
 weight = 2
