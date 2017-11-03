@@ -13,6 +13,9 @@ weight = 3
 
 {{< load-photoswipe >}}
 
+### State Theater, Zumbrota, MN - September 9, 2017
+{{< gallery dir="/images/gallery_StateTheaterZumbrota_images" />}}
+
 ### Marion Ross Center, Albert Lea, MN - September 2, 2017
 {{< gallery dir="/images/gallery_MarionRossCenter_images" />}}
 
