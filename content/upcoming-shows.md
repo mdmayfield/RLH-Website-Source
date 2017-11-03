@@ -28,7 +28,7 @@ tickets = "https://lemusiqueroom.com/upcoming-shows"
 date = "2018-01-27"
 desc = "Mabel Tainter Center"
 city = "Menomonie, WI"
-tickets = "http://www.mabeltainter.org/"
+tickets = "https://web.ovationtix.com/trs/pe.c/10175837"
 
 [[upcoming.events]]
 date = "2018-03-01"
@@ -59,6 +59,11 @@ date = "2017-12-02"
 desc = "Little Theater of New London"
 city = "New London, MN"
 tickets = "http://www.newlondonlittletheatre.com/tickets.html?ticketing=crp"
+
+[[upcoming.events]]
+date="2018-01-13"
+desc="Paradise Center for the Arts"
+city = "Faribault, MN"
 
 [menu.main]
 weight = 2
