@@ -57,7 +57,7 @@ tickets = "https://www.eventbrite.com/e/run-like-hell-pink-floyd-tribute-at-cent
 date = "2017-12-02"
 desc = "Little Theater of New London"
 city = "New London, MN"
-tickets = "http://www.newlondonlittletheatre.com/tickets.html?ticketing=crp"
+tickets = "https://www.eventbrite.com/e/run-like-hell-pink-floyd-tribute-at-the-little-theatre-of-new-london-tickets-39594099016"
 
 [[upcoming.events]]
 date="2018-01-13"
