@@ -4,6 +4,7 @@ title = "Upcoming Shows"
 type = "staticpage"
 layout = "upcoming-shows"
 showcase = "/images/RLH-Band3.jpg"
+aliases = "/upcomingshows"
 
 [[upcoming.events]]
 date = "2017-09-02"
